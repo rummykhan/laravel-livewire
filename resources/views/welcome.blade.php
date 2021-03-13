@@ -2,8 +2,6 @@
 
 @section('content')
 
-
-
     <livewire:index-component />
 
 @endsection
