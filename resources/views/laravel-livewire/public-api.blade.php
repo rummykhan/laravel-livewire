@@ -7,21 +7,19 @@
 
             <a href="{{ url('/') }}">Back to home</a>
 
-            <div class="alert alert-success">
-                Contact form functionality with livewire, livewire validation, spinner while loading, sending email etc
-            </div>
-
         </div>
     </div>
 
     <div class="card">
 
         <div class="card-header">
-            Contact Us form
+            Public API
         </div>
 
         <div class="card-body">
-            <livewire:contact-us />
+
+            <livewire:public-api />
+
         </div>
     </div>
 

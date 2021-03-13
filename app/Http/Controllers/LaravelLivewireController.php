@@ -20,4 +20,9 @@ class LaravelLivewireController extends Controller
     {
         return view('laravel-livewire.contact-form');
     }
+
+    public function publicApi()
+    {
+        return view('laravel-livewire.public-api');
+    }
 }

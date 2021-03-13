@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/hello-world', 'LaravelLivewireController@helloWorld')->name('hello-world');
 Route::get('/reset-password', 'LaravelLivewireController@resetPassword')->name('reset-password');
 Route::get('/contact-form', 'LaravelLivewireController@contactForm')->name('contact-form');
-Route::get('/public-api', 'LaravelLivewireController@index')->name('public-api');
+Route::get('/public-api', 'LaravelLivewireController@publicApi')->name('public-api');
 Route::get('/deep-dive', 'LaravelLivewireController@index')->name('deep-dive');
 
 Route::get('/', function () {
