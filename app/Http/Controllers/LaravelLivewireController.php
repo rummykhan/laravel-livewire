@@ -10,4 +10,9 @@ class LaravelLivewireController extends Controller
     {
         return view("laravel-livewire.hello-world");
     }
+
+    public function resetPassword()
+    {
+        return view("laravel-livewire.reset-password");
+    }
 }
