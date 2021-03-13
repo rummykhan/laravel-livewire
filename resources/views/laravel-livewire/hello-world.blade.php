@@ -18,7 +18,7 @@
         <div class="col-sm-12">
             <div class="card">
 
-                <div class="card-header bg-primary text-white">
+                <div class="card-header">
                     1. Hello livewire
                 </div>
 
@@ -35,8 +35,8 @@
         <div class="col-sm-12">
             <div class="card">
 
-                <div class="card-header bg-secondary text-white">
-                    2. Hello livewire Input
+                <div class="card-header">
+                    2. Input & Select
                 </div>
 
                 <div class="card-body">
@@ -52,8 +52,8 @@
         <div class="col-sm-12">
             <div class="card">
 
-                <div class="card-header bg-secondary text-white">
-                    3. Hello livewire Comment
+                <div class="card-header">
+                    3. Comment
                 </div>
 
                 <div class="card-body">

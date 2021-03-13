@@ -15,4 +15,9 @@ class LaravelLivewireController extends Controller
     {
         return view("laravel-livewire.reset-password");
     }
+
+    public function contactForm()
+    {
+        return view('laravel-livewire.contact-form');
+    }
 }
